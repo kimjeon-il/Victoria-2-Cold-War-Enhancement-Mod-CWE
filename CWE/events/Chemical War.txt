@@ -1,14 +1,14 @@
 ### Chemical Strike (LOW CAPABILITY) ###
 country_event = {
 	id = 1234429 
-	title = "$FROMCOUNTRY$ has been struck with Chemical Weapons"
-	desc = "Capital and Cities have been affected."
+	title = "EVTNAME1234429"
+	desc = "EVTDESC1234429"
 	picture = "chemical_strike"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "We have to prepare for a counter strike"
+		name = "EVTOPTA1234429"
 
 		add_country_modifier = { name = recently_attacked_chemical duration = 31 }
 
@@ -41,14 +41,14 @@ country_event = {
 ### Chemical Strike (MEDIUM CAPABILITY) ###
 country_event = {
 	id = 1234430 
-	title = "$FROMCOUNTRY$ has been struck with Chemical Weapons"
-	desc = "Capital, cities and major towns have been affected."
+	title = "EVTNAME1234429"
+	desc = ""
 	picture = "chemical_strike"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "We have to prepare for a counter strike"
+		name = "EVTOPTA1234429"
 
 		add_country_modifier = { name = recently_attacked_chemical duration = 31 }
 
@@ -91,14 +91,14 @@ country_event = {
 ### Chemical Strike (MAX CAPABILITY) ###
 country_event = {
 	id = 1234431 
-	title = "$FROMCOUNTRY$ has been struck with Chemical Weapons"
-	desc = "Capital, cities, major towns and smaller towns have been affected."
+	title = "EVTNAME1234429"
+	desc = "EVTDESC1234431"
 	picture = "chemical_strike"
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "We have to prepare for a counter strike"
+		name = "EVTOPTA1234429"
 
 		add_country_modifier = { name = recently_attacked_chemical duration = 31 }
 
@@ -151,15 +151,15 @@ country_event = {
 ### Chemical Ultimatum Received (Target Nations) ###
 country_event = {
 	id = 1234432 
-	title = "Threat of $FROMCOUNTRY_ADJ$ Chemical Attacks"
-	desc = "If we do not agree to end the war $FROMCOUNTRY$ will launch a chemical attack!"
+	title = "EVTNAME1234432"
+	desc = "EVTDESC1234432"
 	picture = "chemical_ultimatum"
 	
 	
 	is_triggered_only = yes
 	
 	option = {
-		name = "Capitulate to $FROMCOUNTRY$"
+		name = "EVTOPTA1234432"
 
 		prestige_factor = -0.025
 
@@ -176,7 +176,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Propose a ceasefire with $FROMCOUNTRY$"
+		name = "EVTOPTB1234432"
 
 		prestige_factor = -0.02
 
@@ -191,7 +191,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Continue the war (Face Chemical Attacks)"
+		name = "EVTOPTC1234432"
 
 		#FROM has High Chemical Skill
 		random_owned = {
@@ -219,7 +219,7 @@ country_event = {
 ### Target proposes a ceasefire ###
 country_event = {
 	id = 1234433 
-	title = "$FROMCOUNTRY$ Proposes a Ceasefire"
+	title = "EVTNAME1234433"
 	desc = EVTDESC1234433
 	picture = "chemical_strike"
 
@@ -229,7 +229,7 @@ country_event = {
 	major = yes
 	
 	option = {
-		name = "Accept!"
+		name = "EVTOPTA1234433"
 		FROM = { end_war = THIS }
 		relation = { who = FROM value = 50 }
 		ai_chance = { 
@@ -240,7 +240,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Refuse!"
+		name = "EVTOPTB1234433"
 		war_exhaustion = 5
 		ai_chance = { factor = 0.50 }
 	}
@@ -250,7 +250,7 @@ country_event = {
 ### Target Surrenders ###
 country_event = {
 	id = 12344334 
-	title = "$FROMCOUNTRY$ Surrenders!"
+	title = "EVTNAME12344334"
 	desc = EVTDESC12344334
 	picture = "chemical_strike"
 
@@ -260,7 +260,7 @@ country_event = {
 	major = yes
 	
 	option = {
-		name = "Peace is near!"
+		name = "EVTOPTA12344334"
 		prestige_factor = 0.05
 		war_exhaustion = -25
 		relation = { who = FROM value = 50 }
@@ -271,8 +271,8 @@ country_event = {
 ### Chemical Second Strike Launch by Target Nation ###
 country_event = {
 	id = 1234434
-	title = "$FROMCOUNTRY_ADJ$ Chemical Retaliation"
-	desc = "We have had our population centres damaged by our enemies' chemical bombs."
+	title = "EVTNAME1234434"
+	desc = "EVTDESC1234434"
 	picture = "chemical_strike"
 
 	allow_multiple_instances = yes
@@ -281,7 +281,7 @@ country_event = {
 	major = yes
 	
 	option = {
-		name = "Terrible!"
+		name = "EVTOPTA1234434"
 		prestige = -50
 		any_pop = { militancy = 2.5 }
 	}
