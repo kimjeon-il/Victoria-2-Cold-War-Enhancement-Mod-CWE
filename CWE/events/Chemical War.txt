@@ -42,7 +42,7 @@ country_event = {
 country_event = {
 	id = 1234430 
 	title = "EVTNAME1234429"
-	desc = ""
+	desc = "EVTDESC1234430"
 	picture = "chemical_strike"
 	
 	is_triggered_only = yes
