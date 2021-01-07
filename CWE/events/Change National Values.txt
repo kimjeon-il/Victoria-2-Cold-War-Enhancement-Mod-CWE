@@ -1,7 +1,7 @@
 #National Value Order
 country_event = {
 	id = 124150
-	title = "National Value - Order"
+	title = "EVTNAME124150"
 	desc = EVTDESC124150
 	picture = "national_value_order"
 
@@ -19,7 +19,7 @@ country_event = {
 	}
 
 	option = {
-		name = "This is the new way forward"
+		name = "EVTOPTA124150"
 		nationalvalue = nv_order
 		set_country_flag = set_nv
 	}
@@ -29,7 +29,7 @@ country_event = {
 #National Value Liberty
 country_event = {
 	id = 124151
-	title = "National Value - Liberty"
+	title = "EVTNAME124151"
 	desc = EVTDESC124151
 	picture = "national_value_liberty"
 
@@ -47,7 +47,7 @@ country_event = {
 	}
 
 	option = {
-		name = "This is the new way forward"
+		name = "EVTOPTA124150"
 		nationalvalue = nv_liberty
 		set_country_flag = set_nv
 	}
@@ -57,7 +57,7 @@ country_event = {
 #National Value Equality
 country_event = {
 	id = 124152
-	title = "National Value - Equality"
+	title = "EVTNAME124152"
 	desc = EVTDESC124152
 	picture = "national_value_equality"
 
@@ -75,7 +75,7 @@ country_event = {
 	}
 
 	option = {
-		name = "This is the new way forward"
+		name = "EVTOPTA124150"
 		nationalvalue = nv_equality
 		set_country_flag = set_nv
 	}
@@ -85,7 +85,7 @@ country_event = {
 #National Value Tradition
 country_event = {
 	id = 124153
-	title = "National Value - Tradition"
+	title = "EVTNAME124153"
 	desc = EVTDESC124153
 	picture = "national_value_tradition"
 
@@ -103,7 +103,7 @@ country_event = {
 	}
 
 	option = {
-		name = "This is the new way forward"
+		name = "EVTOPTA124150"
 		nationalvalue = nv_islamic
 		set_country_flag = set_nv
 	}
@@ -113,7 +113,7 @@ country_event = {
 #National Value Meritocracy
 country_event = {
 	id = 124154
-	title = "National Value - Meritocracy"
+	title = "EVTNAME124154"
 	desc = EVTDESC124154
 	picture = "national_value_meritocracy"
 
@@ -131,7 +131,7 @@ country_event = {
 	}
 
 	option = {
-		name = "This is the new way forward"
+		name = "EVTOPTA124150"
 		nationalvalue = nv_meritocracy
 		set_country_flag = set_nv
 	}
@@ -141,7 +141,7 @@ country_event = {
 #National Value Progressivism
 country_event = {
 	id = 124155
-	title = "National Value - Progressivism"
+	title = "EVTNAME124155"
 	desc = EVTDESC124155
 	picture = "national_value_progressivism"
 
@@ -159,7 +159,7 @@ country_event = {
 	}
 
 	option = {
-		name = "This is the new way forward"
+		name = "EVTOPTA124150"
 		nationalvalue = nv_progressivism
 		set_country_flag = set_nv
 	}
@@ -169,7 +169,7 @@ country_event = {
 #Initialise National Values - Information
 country_event = {
 	id = 124156
-	title = "National Values in CWE"
+	title = "EVTNAME124156"
 	desc = EVTDESC124156
 	picture = "national_values"
 
@@ -180,7 +180,7 @@ country_event = {
 	}
 
 	option = {
-		name = "Understood"
+		name = "EVTOPTA124156"
 	}
 
 }
