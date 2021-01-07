@@ -60,7 +60,7 @@ country_event = {
 	}
 	
 	option = {
-name = "Excellent"
+name = "EVTOPTA1131435"
 add_country_modifier = { name = chemical_cap_high duration = -1 }
 remove_country_modifier = chemical_cap_low
 remove_country_modifier = chemical_cap_medium
@@ -69,8 +69,8 @@ remove_country_modifier = chemical_cap_medium
 #### Tiger (MEDIUM Chemical CAPABILITY) ###
 country_event = {
 	id = 1131436
-	title = "MEDIUM CHEMICAL WARFARE CAPABILITY"
-	desc = "We have the means of targeting high to medium value targets."
+	title = "EVTNAME1131436"
+	desc = "EVTDESC1131436"
 	picture = "chemical_medium"
 	
 	
@@ -96,7 +96,7 @@ OR = {
 	}
 	
 	option = {
-name = "Great"
+name = "EVTOPTA1131437"
 add_country_modifier = { name = chemical_cap_medium duration = -1 }
 remove_country_modifier = chemical_cap_high
 remove_country_modifier = chemical_cap_low
@@ -105,8 +105,8 @@ remove_country_modifier = chemical_cap_low
 #### Paper Tiger (LOW NUCLEAR CAPABILITY) ###
 country_event = {
 	id = 1131437
-	title = "LOW CHEMICAL CAPABILITY"
-	desc = "We have the means of targeting only high value targets."
+	title = "EVTNAME1131437"
+	desc = "EVTDESC1131437"
 	picture = "chemical_low"
 	
 	
@@ -146,8 +146,8 @@ remove_country_modifier = chemical_cap_medium
 #### NO NUCLEAR CAPABILITY ###
 country_event = {
 	id = 11314377
-	title = "NO CHEMICAL CAPABILITY"
-	desc = "We have no chemical weapon capability because we have no chemical bombs."
+	title = "EVTNAME11314377"
+	desc = "EVTDESC11314377"
 	picture = "chemical_low"
 	
 	
@@ -173,8 +173,8 @@ remove_country_modifier = chemical_cap_low
 #### Disarm Spherelings of the C Bomb ###
 country_event = {
 	id = 1131438
-	title = "Sphere Leader demands Chemical Disarmament!"
-	desc = "Hostile sphere leader demands that we disarm ourselves of our chemical weapons to reduce our threat to them."
+	title = "EVTNAME1131438"
+	desc = "EVTDESC1131438"
 	picture = "chemical_disarmament_sphere"
 	
 	
@@ -214,21 +214,21 @@ prestige = 20
 #### Disarm Spherelings of the C Bomb ###
 country_event = {
 	id = 1131439
-	title = "$COUNTRY$ Opts to disarm its Chemical Weapons!"
-	desc = "$COUNTRY$ has backed down due to santions and has opted to rid itself of chemical weapons to end the sanctions."
+	title = "EVTNAME1131439"
+	desc = "EVTDESC1131439"
 	picture = "chemical_disarmament_sphere"
 	
 is_triggered_only = yes
 	major = yes
 	option = {
-name = "A victory for our enemies"
+name = "EVTOPTA1131439"
 		}
 	}
 #### Disarm Spherelings of the C Bomb remove sanctions ###
 country_event = {
 	id = 1231440
-	title = "Sphere Leader no longer demands Chemical Disarmament"
-	desc = "Due to the changing nature of relations between our two nations, they no longer demand Chemical disarmament."
+	title = "EVTNAME1231440"
+	desc = "EVTDESC1231440"
 	picture = "Chemical_disarmament_sphere_lose"
 	
 	
@@ -260,8 +260,8 @@ prestige = 20
 #### Disarm Rougue Nations of the Bomb ###
 country_event = {
 	id = 1131441
-	title = "The UN demands Chemical Weapons Disarmament!"
-	desc = "Hostile UN members demand that we disarm ourselves of our chemical weapons to reduce our threat to them."
+	title = "EVTNAME1131441"
+	desc = "EVTDESC1231441"
 	picture = "chemical_disarmament_un"
 	
 	
