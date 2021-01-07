@@ -1,8 +1,8 @@
 #### Gain the chemical bomb ###
 country_event = {
 	id = 1131432
-	title = "$COUNTRY_ADJ$ Chemical Weapons Developed!"
-	desc = "We have finally developed a working chemical bomb!"
+	title = "EVTNAME1131432"
+	desc = "EVTDESC1131432"
 	picture = "chemical_bomb"
 	
 	major = yes
@@ -13,7 +13,7 @@ country_event = {
 	}
 	
 	option = {
-name = "Excellent"
+name = "EVTOPTA1131432"
 add_country_modifier = { name = chemical_nation duration = -1 }
 prestige = 25
 clr_country_flag = chemical_bomb_developed
@@ -23,8 +23,8 @@ clr_country_flag = chemical_bomb_developed
 #### Disarm Puppets of the C Bomb ###
 country_event = {
 	id = 1131434
-	title = "Overlord demands Chemical Weapons Disarmament!"
-	desc = "As a puppet the overlord siezes our bombs."
+	title = "EVTNAME1131434"
+	desc = "EVTDESC1131434"
 	picture = "chemical_disarmament"
 	
 	
@@ -34,7 +34,7 @@ is_vassal = yes
 	}
 	
 	option = {
-name = "So Sad!"
+name = "EVTOPTA1131434"
 remove_country_modifier = chemical_nation
 remove_country_modifier = develop_chemical_bomb
 clr_country_flag = chemical_bomb_developed
@@ -47,8 +47,8 @@ prestige = -25
 #### Chemical Triad (MAX Chemical CAPABILITY) ###
 country_event = {
 	id = 1131435
-	title = "The Chemical Trinity (MAX CHEMICAL WARFARE CAPABILITY)"
-	desc = "We have the means of targeting high to low value targets."
+	title = "EVTNAME1131435"
+	desc = "EVTDESC1131435"
 	picture = "chemical_high"
 	
 	
